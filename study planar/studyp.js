@@ -1,4 +1,4 @@
-// Get the form and table body
+// Get the form and table body<--comments for the dev jam project
 const addRowForm = document.getElementById("add-row-form");
 const tableBody = document.querySelector("tbody");
 
