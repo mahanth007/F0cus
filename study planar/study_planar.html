@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Study Planner</title>
+	<link rel="stylesheet" type="text/css" href="studyp.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Study Planner</h1>
+		<p>(enter desired inputs in the given slots)</p>
+		<table>
+			<thead>
+				<tr>
+					<th>Subject</th>
+					<th>Topic</th>
+					<th>Time (in hours)</th>
+					<th>Completed?</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+		<form id="add-row-form">
+			<br><br><br>
+			<label for="subject-input">Enter Subject:</label>
+			<input type="text" id="subject-input" name="subject"><br> <br>
+			<label for="topic-input">Enter Topic:</label> 
+			<input type="text" id="topic-input" name="topic"><br> <br>
+			<label for="time-input">Enter Time (in hours):</label>
+			<input type="number" id="time-input" name="time" min="1"><br><br>
+			<button type="submit" id="add-row-btn">Add Row</button>
+		</form>
+	</div>
+	<script src="studyp.js"></script>
+</body>
+</html>
+
