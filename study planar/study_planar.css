@@ -1,0 +1,91 @@
+body {
+	font-family: Courier, monospace;
+	margin: 0;
+	padding: 0;
+    background-image:url('focus.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+    font-weight: 400;
+    font-size: xx-large;
+	margin-bottom: 20px;
+    background-color: burlywood;
+    color: cornsilk;
+    font-size: 100px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+    background-color: black;
+}
+
+th, td {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: center;
+    color: crimson;
+    font-size: 40px;
+}
+
+th {
+	background-color: #f2f2f2;
+    color: crimson;
+    background-color: black;
+    font-size: 40px;
+}
+
+tr:nth-child(even) {
+	background-color: black;
+}
+
+td:last-child {
+	text-align: left;
+    background-color: burlywood;
+}
+
+input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+    background-color: crimson;
+}
+.add-row-btn {
+	display: block;
+	margin: 20px auto;
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: #8b1c1c;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 32px;
+}
+
+.add-row-btn:hover {
+	background-color: #3e8e41;
+}
+ label{
+background-color: black;
+color: crimson;
+font-size: 20px;
+}
+button{
+    background-color: burlywood;
+    color: cornsilk;
+    font-size: 20px;
+}
+p{
+    align-self: center;
+    font-size: 30px;
+}
+
